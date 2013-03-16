@@ -42,6 +42,8 @@ __BEGIN_DECLS
 #define LIGHT_ID_BATTERY            "battery"
 #define LIGHT_ID_NOTIFICATIONS      "notifications"
 #define LIGHT_ID_ATTENTION          "attention"
+#define LIGHT_ID_CAPS               "caps"
+#define LIGHT_ID_FUNC               "func"
 
 /*
  * These lights aren't currently supported by the higher
@@ -50,6 +52,8 @@ __BEGIN_DECLS
  */
 #define LIGHT_ID_BLUETOOTH          "bluetooth"
 #define LIGHT_ID_WIFI               "wifi"
+#define LIGHT_ID_WIMAX              "wimax"
+#define LIGHT_ID_FLASHLIGHT         "flashlight"
 
 /* ************************************************************************
  * Flash modes for the flashMode field of light_state_t.
